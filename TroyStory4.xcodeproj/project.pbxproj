@@ -25,6 +25,7 @@
 		2C13B7D1199A6FBB00A99CDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C13B7AC199A6FBA00A99CDE /* CoreData.framework */; };
 		2C13B7D9199A6FBB00A99CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C13B7D7199A6FBB00A99CDE /* InfoPlist.strings */; };
 		2C13B7DB199A6FBB00A99CDE /* TroyStory4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B7DA199A6FBB00A99CDE /* TroyStory4Tests.m */; };
+		2C13B7E9199A78D600A99CDE /* Trojan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B7E8199A78D600A99CDE /* Trojan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		2C13B7D6199A6FBB00A99CDE /* TroyStory4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory4Tests-Info.plist"; sourceTree = "<group>"; };
 		2C13B7D8199A6FBB00A99CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C13B7DA199A6FBB00A99CDE /* TroyStory4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStory4Tests.m; sourceTree = "<group>"; };
+		2C13B7E7199A78D600A99CDE /* Trojan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trojan.h; sourceTree = "<group>"; };
+		2C13B7E8199A78D600A99CDE /* Trojan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trojan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				2C13B7C4199A6FBA00A99CDE /* DetailViewController.m */,
 				2C13B7C6199A6FBA00A99CDE /* Images.xcassets */,
 				2C13B7BD199A6FBA00A99CDE /* TroyStory4.xcdatamodeld */,
+				2C13B7E7199A78D600A99CDE /* Trojan.h */,
+				2C13B7E8199A78D600A99CDE /* Trojan.m */,
 				2C13B7AF199A6FBA00A99CDE /* Supporting Files */,
 			);
 			path = TroyStory4;
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C13B7C5199A6FBA00A99CDE /* DetailViewController.m in Sources */,
+				2C13B7E9199A78D600A99CDE /* Trojan.m in Sources */,
 				2C13B7C2199A6FBA00A99CDE /* MasterViewController.m in Sources */,
 				2C13B7BF199A6FBA00A99CDE /* TroyStory4.xcdatamodeld in Sources */,
 				2C13B7B9199A6FBA00A99CDE /* AppDelegate.m in Sources */,
